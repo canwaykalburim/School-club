@@ -6,6 +6,8 @@
 
 void login();
 
+char Back[100] = { 0 };
+
 int main(void)
 {
 	login();
@@ -76,7 +78,6 @@ void managermode()
 void usermode()
 {
 	int num1 = 0; 
-	char Back[2] = { 0 };
 	
 	printf("¡ÚUSERMODE¡Ú\n\n");
 	printf("Please enter the number of the item you want to view.\n\n");
@@ -111,6 +112,7 @@ void usermode()
 		}
 		else
 		{
+			system("cls");
 			printf("fail... finish the project");
 		}
 	}
@@ -137,6 +139,7 @@ void usermode()
 		}
 		else
 		{
+			system("cls");
 			printf("fail... finish the project");
 		}
 	}
@@ -162,6 +165,7 @@ void usermode()
 		}
 		else
 		{
+			system("cls");
 			printf("fail... finish the project");
 		}
 	}
