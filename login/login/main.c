@@ -22,7 +22,7 @@ void managermode()
 {
 	int userInput = 0;
 	
-	printf("¡ÚMANAGERMODE¡Ú\n\n");
+	printf("==MANAGERMODE==\n\n");
 
 	while (1)
 	{
@@ -68,7 +68,7 @@ void managermode()
 			system("cls");
 			printf("It doesn't exist.\n\n");
 			printf("If you want to go back, press any key\n\n");
-			_getche();
+			_getch();
 			system("cls");
 			managermode();
 		}
@@ -79,7 +79,7 @@ void usermode()
 {
 	int num1 = 0; 
 	
-	printf("¡ÚUSERMODE¡Ú\n\n");
+	printf("==USERMODE==\n\n");
 	printf("Please enter the number of the item you want to view.\n\n");
 
 	printf("1. breakfast\n");
