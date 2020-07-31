@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#wallpaper {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 1700px;
+  height: 1200px;
+  background: repeat url(./img/snowflake.jpg);
+
+  z-index: 0;
+}
+
+#head {
+  width: 300px;
+  height: 300px;
+  margin-top: 80px;
+  border: 1px solid white;
+  border-radius: 150px;
+  background-color: white;
+  
+  z-index: 100;
+}
+
+#body {
+  width: 400px;
+  height: 400px;
+  margin-top: -10px;
+  border: 1px solid white;
+  border-radius: 200px;
+  background-color: white;
+
+  z-index: 100;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.btn:first-child {
+  width: 40px;
+  height: 40px;
+  margin-top: 80px;
+  border-radius: 20px;
+  
+  z-index: 105;
+  background-color: crimson;
+}
+.btn:nth-child(2) {
+  width: 40px;
+  height: 40px;
+  margin-top: 80px;
+  border-radius: 20px;
+  background-color: royalblue;
+  
+  z-index: 105;
+}
+.btn:last-child {
+  width: 40px;
+  height: 40px;
+  margin-top: 60px;
+  border-radius: 20px;
+  background-color: black;
+  
+  z-index: 105;
+}
